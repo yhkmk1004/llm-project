@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "relevant": { "type": "boolean" },
+    "price":    { "type": "string" },
+    "discount": { "type": "string" },
+    "reason":   { "type": "string" }
+  },
+  "required": ["relevant", "price", "discount", "reason"]
+}
